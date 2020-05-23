@@ -5,9 +5,16 @@ A simple API that generates a paymongo link.
 ### Usage
 ---
 1. Build this container by running this command:
-`docker build --tag paymongo-link .`
+
+```bash
+docker build --tag paymongo-link .
+```
+
 2. After building the container, you can run it as follow:
-`docker run -p 8000:80 paymongo-link`
+
+```
+bash docker run -p 8000:80 paymongo-link
+```
 
 ### Request
 
